@@ -1,0 +1,162 @@
+html{
+  font-family: Book Antiqua,Yu Gothic,sans-serif;
+}
+
+body{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.headerInner{
+  font-size: larger;
+  text-align: center;
+}
+
+.menu{
+  position: sticky;
+  position: -webkit-sticky;
+  top:20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item{
+  margin: 10px;
+}
+
+.title{
+  display: inline-block;
+  background: #3195cf9a;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.myProfile img.icon{
+  width: 150px;
+  height: 120px;
+  margin: 0 10px;
+}
+
+.youtube iframe{
+  width: 100%;
+}
+
+.prodimg img.product{
+  width: 200px;
+  height: 150px;
+}
+
+.tshirt{
+  padding: 10px;
+}
+
+.tshirt img.tshirt1,.tshirt2 img.tshirt2_a{
+  width: 120px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.tshirt2 img.tshirt2_b{
+  width: 160px;
+  height: 80px;
+}
+
+
+@media screen and (min-width:1024px){
+body{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menu{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+}
+
+.menutop{
+  text-decoration: underline;
+}
+
+.menu a{
+background:#ffffff46;
+color:black;
+width:120px;
+height:30px;
+display:inline-block;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+line-height: 30px;
+font-size: 20px;
+}
+
+.menu a:hover{
+  color: blueviolet;
+}
+
+.item{
+  margin: 10px;
+}
+
+.headerInner{
+  font-size: larger;
+}
+
+.title{
+  display: inline-block;
+  background: #3195cf9a;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  width: 170px;
+  height: 37px;
+  line-height: 37px;
+  border-radius: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+.myProfile{
+  display: flex;
+  justify-content: center;
+}
+
+.myProfile img.icon{
+  width: 150px;
+  height: 120px;
+}
+
+.youtube iframe{
+  width: 560px;
+  height: 315px;
+}
+
+.prodimg img.product{
+  width: 400px;
+  height: 300px;
+}
+
+.tshirt,.tshirt2{
+  display: inline-block;
+  max-width: 720px;
+}
+
+.tshirt img.tshirt1,.tshirt2 img.tshirt2_a{
+  width: 210px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.tshirt2 img.tshirt2_b{
+  width: 280px;
+  height: 140px;
+}
+
+
+}
