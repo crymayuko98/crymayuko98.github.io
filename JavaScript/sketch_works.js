@@ -7,7 +7,7 @@ function setup() {
  }
  
  function draw() {
-   fill(random(130,180), 85, 70,25);
+   fill(random(150,200), 85, 70,25);
    noStroke();
    ellipse(random(windowWidth), random(document.body.clientHeight), random(150));
    if(frameCount > 180){
